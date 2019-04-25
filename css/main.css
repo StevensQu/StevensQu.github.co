@@ -1,30 +1,85 @@
 body{
-    background: #000000;
-    color: #FFFFFF;
+    background: #fffefe;
+    background-image: url('../imgs/background-img.jpg')
+    
+}
+#body{
+    background: #fffdfd;
+    color: rgb(180, 178, 178);
+    width: 1024px;
+    height: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: 0; 
+    background-attachment: fixed;
+    background-image: url('../imgs/background.jpg')
+}
+#content{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center
+    /* background-attachment: fixed;
+    background-image: url('../imgs/unsplash4.jpg') */
+}
+#content img{
+    width: 1024px;
+    border: 1px gray
+
 }
 .p1{
     font-size: 25px;
+    color: rgb(7, 7, 7)
+    
+}
+p{
+    text-indent: 1%
 }
 
 .split{
     border: rgba(255,255,255,0.03);
     width: 100%;
-    height: 20px;
-    background: #FF00FF;;
+    height: 22px;
+    background: rgb(70, 69, 70);
+    overflow: visible;
 }
+
+
 a:link{
-    color: #FFFFFF;
+    color: rgb(194, 192, 192);
+    text-decoration: none
 }
 a:hover{
-    color: #FF00FF;
+    color: rgb(245, 92, 194);
 }
 a:visited{
-    color: #FF00FF;
+    color: rgb(197, 185, 197);
 }
 #search{
     float: right;
+    height: 20px;
     margin-right: 7%;
 }
 #list{
     font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+#tail{
+    margin: 0 auto;
+    width: 180px;
+    background-color: whitesmoke;
+    text-align: center;
+    font: 15px;
+
+
+}
+#tail a{
+    text-decoration:solid ;
+    font-size: 13px;
+    color: #636263;
 }
